@@ -1,0 +1,6 @@
+def formato_nombre(nombre, apellido):
+    return f"{apellido.upper()}, {nombre.capitalize()}"
+
+print(formato_nombre("ana", "garcía"))
+
+# Este ejercicio transforma un nombre a formato "APELLIDO, Nombre".
